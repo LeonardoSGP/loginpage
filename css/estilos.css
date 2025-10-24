@@ -1,0 +1,70 @@
+/* Estilos base */
+* {
+  margin: 10px;
+  font-family: Arial, sans-serif;
+}
+
+/* Selector de etiqueta */
+p {
+  color: darkblue;
+}
+
+/* Selector por ID */
+#selector-id {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* Selector por clase */
+.selector-clase {
+  color: green;
+}
+
+/* Selector en cadena */
+.contenedor p {
+  color: orange;
+}
+
+/* Pseudoclases de interacción */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+/* Pseudoclase de enlace visitado */
+a:visited {
+  color: purple;
+}
+
+/* Pseudoclases estructurales */
+
+/* Hijo directo */
+.padre > p {
+  color: brown;
+  font-weight: bold;
+}
+
+/* Hermano adyacente */
+h4 + p {
+  color: teal;
+  font-style: italic;
+}
+
+/* Descendiente */
+.abuelo p {
+  color: darkmagenta;
+}
+
+/* Selector universal */
+.universal-ejemplo {
+  border: 1px solid gray;
+  padding: 5px;
+}
